@@ -1,0 +1,145 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+\usepackage{mathptmx}
+\usepackage[11pt]{moresize}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{false}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\name{Lance}{Lafontaine}
+\position{\normalsize Software Engineering Student}
+
+\mobile{\ssmall (514) 295-3997}
+\email{lancelafontaine@protonmail.com}
+\homepage{lancelafontaine.com}
+\github{lancelafontaine}
+\linkedin{lancelafontaine}
+% \gitlab{gitlab-id}
+\stackoverflow{2037867}{lancelafontaine}
+% \twitter{lancelafontaine}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {***NAME}
+  {*** \\ *** \\ *** }
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{\normalsize Subject: Internship position as a *** at *** (Job ID: ***)}
+% How the letter is opened
+\letteropening{\normalsize Dear ***,}
+% How the letter is closed
+\letterclosing{\normalsize Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+\includegraphics[scale=0.22]{coop-left}
+
+\vspace{-10.5mm}
+
+\hfill
+\includegraphics[scale=0.18]{coop-right}
+
+\vspace{-7mm}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[C]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Lance Lafontaine~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+  \vspace{3mm}
+
+  \normalsize I am writing to express my sincere interest in the available internship position working as a *** for the summer of 2017. As a software engineering student and an experienced developer who is passionate about new technologies, it is with great pleasure that I discover that *** is searching for an intern with strong technical, creative and communication skills. I am certain that I am able to add value to your company's goal of ***.\\
+
+I have had the privilege of working as a web application developer at AppHelp by AppDirect over the past year and a half. This position began as an internship which was subsequently extended with a part-time contract throughout my studies, due to the large impact I was able to make on my team. This was also a fantastic learning experience, as I had the opportunity to develop large maintainable software systems in a fast-paced test-driven Agile environment. Having this extensive experience gives me a competitive advantage that I am excited about bringing to your organization.\\
+
+My studies at Concordia University have been extremely beneficial for my growth as a software professional. I typically volunteer to be the team leader in all class projects, which has enabled me to apply my knowledge in hands-on scenarios as well as develop my leadership and team-building skills. Additionally, I have been able to maintain a consistently-high GPA score over the past three years, and have gained a vast amount of knowledge from the courses taught in the Computer Science and Software Engineering department. I have also previously completed a research-based Bachelor’s degree in Cell and Molecular Biology, during which I focused on the intersection of biology and computing.\\
+
+In addition to my professional and practical qualifications, I like to spend my free time by sharpening my technical skills. I particularly enjoy participating in programming competitions and hackathons which has resulted in me obtaining several awards from these events. I also frequently contribute to open source projects, solve coding challenges at HackerRank, answer questions on Stack Overflow and related sites, volunteer at the Concordia Software \& Computer Science Society, and listen to \textit{lots} of podcasts about software development.\\
+
+I am confident that my interdisciplinary skill set, willingness to learn and passion for all things software are key elements that will help me become a resourceful asset for ***. I look forward to the opportunity to speak with you and to discuss how my credentials are an excellent match for what *** is looking for.\\
+
+Thank you for your consideration.\\
+
+\vspace{-4.5mm}
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
