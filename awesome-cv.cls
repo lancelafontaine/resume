@@ -682,6 +682,7 @@
   \begin{singlespace}
     \recipientaddressstyle{\@recipientaddress} \\\\
   \end{singlespace}
+  \vspace{-5mm}
   \ifthenelse{\isundefined{\@lettertitle}}
     {}
     {\lettertitlestyle{\@lettertitle} \\}
